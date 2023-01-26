@@ -73,7 +73,6 @@ div.shinobu{
     background-image: url("/kanao.png");
     background-size: cover;
 }
-/* Responsive styles for menu */
 @media screen and (max-width: 768px) {
     .menu {
         flex-wrap: wrap;
