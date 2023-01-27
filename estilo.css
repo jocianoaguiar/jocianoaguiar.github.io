@@ -59,6 +59,7 @@ div.menu a:hover{
     height: 100%;
     border: 1px dashed blue;
     cursor: pointer;
+    border-radius: 10px;
 }
 div.shinobu{
     background-image: url("shinobu-1.jpg");
