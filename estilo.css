@@ -45,14 +45,15 @@ div.menu a:hover{
 }
 .corpo{
     padding: 10px;
+    margin: 0 auto;
     width: 100%;
     height: 80vh;
     text-align: center;
 }
 .corpo > div{
+    display: inline-block;
     padding-top: 10px;
     box-sizing: border-box;
-    float: left;
     background-position: center;
     width: 48%;
     height: 100%;
