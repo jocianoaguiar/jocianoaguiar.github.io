@@ -70,3 +70,15 @@ div.menu a:hover{
     margin-bottom: 20px;
     }
 }
+.corpo >div {
+    text-align: center;
+}
+.corpo img{
+    width: 45%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .corpo img{
+        width: 100%;
+    }
+}
