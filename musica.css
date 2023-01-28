@@ -63,19 +63,3 @@ div.menu a:hover{
     margin-bottom: 10px;
 
 }
-.videos{
-    width: 100%;
-    text-align: center;
-}
-@media screen and (max-width: 768px) {
-    .videos {
-        grid-template-columns: 1fr; /* mudando para apenas uma coluna */
-        grid-row-gap: 10px; /* adicionando espaço entre as linhas */
-    }
-    .videos {
-        width: 80vh;
-        height: 40vh;
-    }
-
-}
-
