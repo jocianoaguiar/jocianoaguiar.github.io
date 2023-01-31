@@ -43,16 +43,16 @@ div.menu a:hover{
     padding: 10px;
     transition: background-color 1s;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 1000px) {
     .menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: inline-block;
+        text-align: center;
     }
     .menu a {
-        width: 100%; /
-    margin: 10px 0;/
-    padding: 10px;
+        font-size: 4vh;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
     }
 }
 .cabecalho{

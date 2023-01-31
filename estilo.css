@@ -80,15 +80,15 @@ div.shinobu{
 .fix{
     clear: both;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 1000px) {
     .menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: inline-block;
+        text-align: center;
     }
     .menu a {
-        width: 100%; /
-        margin: 10px 0;/
+        font-size: 4vh;
+        width: 100%;
+        margin: 10px 0;
         padding: 10px;
     }
 }
