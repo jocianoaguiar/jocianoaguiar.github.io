@@ -30,17 +30,17 @@ body {
     text-decoration: none;
     font-family: Arial,sans-serif;
     font-size: 2.3vw;
+    text-shadow: 2px 3px rgb(0, 0, 0);
     font-size-adjust: inherit;
     color: #afe342;
     margin: 0 80px;
-    background-image: url("Demon-Slayer-Anime-se-junta-a-linha-de-figuras-de.jpg");
+    background-color: aqua;
     background-size: cover;
     border-radius: 10px;
     box-shadow: 1px 1px 1px white;
 }
 div.menu a:hover{
     background-color: rgba(227, 4, 4, 0.32);
-    padding: 10px;
     transition: background-color 1s;
 }
 .corpo{
@@ -52,11 +52,10 @@ div.menu a:hover{
 }
 .corpo > div{
     display: inline-block;
-    padding-top: 10px;
     box-sizing: border-box;
     background-position: center;
     width: 48%;
-    height: 65%;
+    padding-top: 50%;
     border: 1px dashed blue;
     cursor: pointer;
     border-radius: 10px;
@@ -91,10 +90,16 @@ div.shinobu{
         margin: 10px 0;
         padding: 10px;
     }
+    .corpo > div {
+        width: 100%;
+        padding-top:50%; 
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 768px) {
     .corpo > div {
-        width: 100%; /
+        width: 100%;
+        padding-top:50%; 
         margin-bottom: 20px;
     }
 }
